@@ -1,0 +1,14 @@
+{
+  "url": "https://www.lambdatest.com/selenium-playground",
+  "WelcomeText": "Welcome to LambdaTest",
+  "Name": "John",
+  "Email": "JohnDoe@gmail.com",
+  "Passwprd": "Password",
+  "Company": "FreePS",
+  "Website": "freeps.ps",
+  "City": "New York",
+  "Address": "20 Mountainview Rd",
+  "Address2": "Greenwood Lake",
+  "State": "New York",
+  "Zip": "10925"
+}
