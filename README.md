@@ -1,5 +1,3 @@
-# LambdaTestPlaywright101
-
 # Playwright 101 Assignment - Test Execution Guide
 
 ## 🚀 How to Run the Tests
@@ -62,4 +60,5 @@ After execution:
 ---
 
 **Note:** Tests were developed and validated locally, then configured for LambdaTest Cloud execution.
+
 
