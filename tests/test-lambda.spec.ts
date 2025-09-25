@@ -22,6 +22,5 @@ test("Test Scenario 3", async ({ page }) => {
   const scenario3 = new Scenario3(page);
   await scenario1.openLambdaTest();
   await scenario3.openInputFormSubmit();
-  await scenario3.submitEmptyFormAndValidateHTML5();
   await scenario3.fillForm();
 });

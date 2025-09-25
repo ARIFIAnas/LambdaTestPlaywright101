@@ -1,0 +1,1405 @@
+2025-08-30 15:49:58 - [34mdebug[39m: args.argv 
+2025-08-30 15:49:58 - [34mdebug[39m: cmdArgs 
+2025-08-30 15:49:58 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 15:49:58 - [34mdebug[39m: Playwright version: 1.49.1
+2025-08-30 15:49:58 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/configLoader.js with basePath: playwright
+2025-08-30 15:49:58 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/configLoader.js, package: playwright
+2025-08-30 15:49:58 - [34mdebug[39m: Getting playwright/lib/common/configLoader.js from D:\LambdaTest-Playwright
+2025-08-30 15:49:58 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\configLoader.js
+2025-08-30 15:49:58 - [34mdebug[39m: userConfig
+2025-08-30 15:49:58 - [34mdebug[39m: [generateConfigFile] Generating config file for path: D:\LambdaTest-Playwright\playwright.config.ts
+2025-08-30 15:49:58 - [34mdebug[39m: [generateConfigFile] Initial config file name: playwright-lambdatest-sdk.config.js
+2025-08-30 15:49:58 - [34mdebug[39m: [generateConfigFile] Detected TypeScript file
+2025-08-30 15:49:58 - [34mdebug[39m: [generateConfigFile] Updated config file name for TypeScript: playwright-lambdatest-sdk.config.ts
+2025-08-30 15:49:58 - [34mdebug[39m: [generateConfigFile] Generated config content: 
+
+    import pkg from '@lambdatest/playwright-node-sdk';
+    export default pkg._modifyPlaywright()
+
+2025-08-30 15:49:58 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 15:49:58 - [31merror[39m: [getLambdaTestConfig] Neither lambdatest.yml nor lambdatest.yaml found in project root
+2025-08-30 15:49:58 - [31merror[39m: lambdatest.yml not found in project root
+2025-08-30 15:50:22 - [34mdebug[39m: args.argv 
+2025-08-30 15:50:22 - [34mdebug[39m: cmdArgs 
+2025-08-30 15:50:22 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 15:50:22 - [34mdebug[39m: Playwright version: 1.49.1
+2025-08-30 15:50:22 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/configLoader.js with basePath: playwright
+2025-08-30 15:50:22 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/configLoader.js, package: playwright
+2025-08-30 15:50:22 - [34mdebug[39m: Getting playwright/lib/common/configLoader.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:22 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\configLoader.js
+2025-08-30 15:50:23 - [34mdebug[39m: userConfig
+2025-08-30 15:50:23 - [34mdebug[39m: [generateConfigFile] Generating config file for path: D:\LambdaTest-Playwright\playwright.config.ts
+2025-08-30 15:50:23 - [34mdebug[39m: [generateConfigFile] Initial config file name: playwright-lambdatest-sdk.config.js
+2025-08-30 15:50:23 - [34mdebug[39m: [generateConfigFile] Detected TypeScript file
+2025-08-30 15:50:23 - [34mdebug[39m: [generateConfigFile] Updated config file name for TypeScript: playwright-lambdatest-sdk.config.ts
+2025-08-30 15:50:23 - [34mdebug[39m: [generateConfigFile] Generated config content: 
+
+    import pkg from '@lambdatest/playwright-node-sdk';
+    export default pkg._modifyPlaywright()
+
+2025-08-30 15:50:23 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 15:50:23 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 15:50:23 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 15:50:26 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 15:50:26 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 15:50:26 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 15:50:26 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:26 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 15:50:26 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 15:50:26 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 15:50:26 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 15:50:26 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chromium",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.33 Safari/537.36",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "chromium"
+      }
+    },
+    {
+      "name": "firefox",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "firefox"
+      }
+    },
+    {
+      "name": "webkit",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1792,
+          "height": 1120
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "webkit"
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 15:50:26 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 15:50:26 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 15:50:26 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 15:50:26 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 15:50:26 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 15:50:26 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 15:50:26 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 15:50:26 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:26 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 15:50:26 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 15:50:26 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 15:50:26 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 15:50:26 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 15:50:26 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 15:50:26 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 15:50:26 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 15:50:26 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 15:50:26 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 15:50:26 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:26 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:26 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 15:50:26 - [34mdebug[39m: Call to child fork with args D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 15:50:26 - [34mdebug[39m: Replacing D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js with D:\LambdaTest-Playwright\node_modules\@lambdatest\playwright-node-sdk\dist\helper\mock-process.js
+2025-08-30 15:50:26 - [34mdebug[39m: Call to child fork with args D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 15:50:26 - [34mdebug[39m: Replacing D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js with D:\LambdaTest-Playwright\node_modules\@lambdatest\playwright-node-sdk\dist\helper\mock-process.js
+2025-08-30 15:50:26 - [34mdebug[39m: Call to child fork with args D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 15:50:26 - [34mdebug[39m: Replacing D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js with D:\LambdaTest-Playwright\node_modules\@lambdatest\playwright-node-sdk\dist\helper\mock-process.js
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/process.js with basePath: playwright
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/process.js, package: playwright
+2025-08-30 15:50:29 - [34mdebug[39m: Getting playwright/lib/common/process.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: @playwright/test/index.js with basePath: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: @playwright/test/index.js, package: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: Getting @playwright/test/index.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\@playwright\test\index.js
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/process.js with basePath: playwright
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/process.js, package: playwright
+2025-08-30 15:50:29 - [34mdebug[39m: Getting playwright/lib/common/process.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: @playwright/test/index.js with basePath: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: @playwright/test/index.js, package: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: Getting @playwright/test/index.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\@playwright\test\index.js
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/process.js with basePath: playwright
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/process.js, package: playwright
+2025-08-30 15:50:29 - [34mdebug[39m: Getting playwright/lib/common/process.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: @playwright/test/index.js with basePath: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: Attempting to resolve module: @playwright/test/index.js, package: @playwright/test
+2025-08-30 15:50:29 - [34mdebug[39m: Getting @playwright/test/index.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:29 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\@playwright\test\index.js
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chromium",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.33 Safari/537.36",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "chromium"
+      }
+    },
+    {
+      "name": "firefox",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "firefox"
+      }
+    },
+    {
+      "name": "webkit",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1792,
+          "height": 1120
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "webkit"
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 15:50:30 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 15:50:30 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 15:50:30 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 15:50:30 - [34mdebug[39m: workerHook started
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chromium",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.33 Safari/537.36",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "chromium"
+      }
+    },
+    {
+      "name": "firefox",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "firefox"
+      }
+    },
+    {
+      "name": "webkit",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1792,
+          "height": 1120
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "webkit"
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 15:50:30 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 15:50:30 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chromium",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.33 Safari/537.36",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "chromium"
+      }
+    },
+    {
+      "name": "firefox",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "firefox"
+      }
+    },
+    {
+      "name": "webkit",
+      "use": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "screen": {
+          "width": 1792,
+          "height": 1120
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": false,
+        "hasTouch": false,
+        "defaultBrowserType": "webkit"
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 15:50:30 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 15:50:30 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 15:50:30 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 15:50:30 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 15:50:30 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 15:50:30 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 15:50:30 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 15:50:30 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 15:50:30 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 15:50:30 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "fullyParallel": true,
+  "forbidOnly": false,
+  "retries": 0,
+  "reporter": "html",
+  "use": {
+    "headless": true,
+    "browserName": "chromium",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 15:50:30 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 15:50:30 - [34mdebug[39m: workerInfo in workerHook:
+2025-08-30 15:50:30 - [34mdebug[39m: beforeWorkerHook started
+2025-08-30 15:50:30 - [34mdebug[39m: workerInfo received:
+2025-08-30 15:50:30 - [34mdebug[39m: workerDetails beforeWorkerHook
+2025-08-30 15:50:30 - [34mdebug[39m: [mockBrowserType] projectName: "chrome:latest:windows 10@lambdatest"
+2025-08-30 15:50:30 - [34mdebug[39m: workerHook started
+2025-08-30 15:50:30 - [34mdebug[39m: workerHook started
+2025-08-30 15:50:30 - [34mdebug[39m: workerInfo in workerHook:
+2025-08-30 15:50:30 - [34mdebug[39m: beforeWorkerHook started
+2025-08-30 15:50:30 - [34mdebug[39m: workerInfo received:
+2025-08-30 15:50:30 - [34mdebug[39m: workerDetails beforeWorkerHook
+2025-08-30 15:50:30 - [34mdebug[39m: [mockBrowserType] projectName: "chrome:latest:windows 10@lambdatest"
+2025-08-30 15:50:30 - [34mdebug[39m: workerInfo in workerHook:
+2025-08-30 15:50:30 - [34mdebug[39m: beforeWorkerHook started
+2025-08-30 15:50:30 - [34mdebug[39m: workerInfo received:
+2025-08-30 15:50:30 - [34mdebug[39m: workerDetails beforeWorkerHook
+2025-08-30 15:50:30 - [34mdebug[39m: [mockBrowserType] projectName: "chrome:latest:windows 10@lambdatest"
+2025-08-30 15:50:30 - [34mdebug[39m: workerHook ended
+2025-08-30 15:50:30 - [34mdebug[39m: workerHook ended
+2025-08-30 15:50:31 - [34mdebug[39m: workerHook ended
+2025-08-30 16:00:12 - [34mdebug[39m: args.argv 
+2025-08-30 16:00:12 - [34mdebug[39m: cmdArgs 
+2025-08-30 16:00:13 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 16:00:13 - [34mdebug[39m: Playwright version: 1.49.1
+2025-08-30 16:00:13 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/configLoader.js with basePath: playwright
+2025-08-30 16:00:13 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/configLoader.js, package: playwright
+2025-08-30 16:00:13 - [34mdebug[39m: Getting playwright/lib/common/configLoader.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:13 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\configLoader.js
+2025-08-30 16:00:13 - [34mdebug[39m: userConfig
+2025-08-30 16:00:13 - [34mdebug[39m: [generateConfigFile] Generating config file for path: D:\LambdaTest-Playwright\playwright.config.ts
+2025-08-30 16:00:13 - [34mdebug[39m: [generateConfigFile] Initial config file name: playwright-lambdatest-sdk.config.js
+2025-08-30 16:00:13 - [34mdebug[39m: [generateConfigFile] Detected TypeScript file
+2025-08-30 16:00:13 - [34mdebug[39m: [generateConfigFile] Updated config file name for TypeScript: playwright-lambdatest-sdk.config.ts
+2025-08-30 16:00:13 - [34mdebug[39m: [generateConfigFile] Generated config content: 
+
+    import pkg from '@lambdatest/playwright-node-sdk';
+    export default pkg._modifyPlaywright()
+
+2025-08-30 16:00:13 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 16:00:13 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 16:00:13 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 16:00:16 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 16:00:16 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 16:00:16 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 16:00:16 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:16 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 16:00:16 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 16:00:16 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 16:00:16 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 16:00:16 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 16:00:16 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 16:00:16 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 16:00:16 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 16:00:16 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chromium@lambdatest",
+      "use": {
+        "browserName": "chromium",
+        "channel": "chrome",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22Chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22platform%22%3A%22Windows%2010%22%2C%22build%22%3A%22Playwright%20Build%201%22%2C%22name%22%3A%22Playwright%20Sample%20Test%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:16 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 16:00:16 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 16:00:16 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 16:00:16 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 16:00:17 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 16:00:17 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 16:00:17 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 16:00:17 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 16:00:17 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 16:00:17 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 16:00:17 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:17 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 16:00:17 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 16:00:17 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 16:00:17 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 16:00:17 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 16:00:17 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 16:00:17 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 16:00:17 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 16:00:17 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 16:00:17 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 16:00:17 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:17 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:17 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 16:00:17 - [34mdebug[39m: Call to child fork with args D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 16:00:17 - [34mdebug[39m: Replacing D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js with D:\LambdaTest-Playwright\node_modules\@lambdatest\playwright-node-sdk\dist\helper\mock-process.js
+2025-08-30 16:00:19 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/process.js with basePath: playwright
+2025-08-30 16:00:19 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/process.js, package: playwright
+2025-08-30 16:00:19 - [34mdebug[39m: Getting playwright/lib/common/process.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: @playwright/test/index.js with basePath: @playwright/test
+2025-08-30 16:00:19 - [34mdebug[39m: Attempting to resolve module: @playwright/test/index.js, package: @playwright/test
+2025-08-30 16:00:19 - [34mdebug[39m: Getting @playwright/test/index.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\@playwright\test\index.js
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 16:00:19 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 16:00:19 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 16:00:19 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 16:00:19 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 16:00:19 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 16:00:19 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chromium@lambdatest",
+      "use": {
+        "browserName": "chromium",
+        "channel": "chrome",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22Chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22platform%22%3A%22Windows%2010%22%2C%22build%22%3A%22Playwright%20Build%201%22%2C%22name%22%3A%22Playwright%20Sample%20Test%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 16:00:19 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 16:00:19 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 16:00:19 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 16:00:19 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 16:00:19 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 16:00:19 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 16:00:19 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:19 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 16:00:19 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 16:00:19 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 16:00:19 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 16:00:19 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 16:00:19 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 16:00:19 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 16:00:19 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 16:00:19 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 16:00:19 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 16:00:19 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:19 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:19 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 16:00:19 - [34mdebug[39m: workerHook started
+2025-08-30 16:00:19 - [34mdebug[39m: workerInfo in workerHook:
+2025-08-30 16:00:19 - [34mdebug[39m: beforeWorkerHook started
+2025-08-30 16:00:19 - [34mdebug[39m: workerInfo received:
+2025-08-30 16:00:19 - [34mdebug[39m: workerDetails beforeWorkerHook
+2025-08-30 16:00:19 - [34mdebug[39m: [mockBrowserType] projectName: "chrome:latest:windows 10@lambdatest"
+2025-08-30 16:00:20 - [34mdebug[39m: workerHook ended
+2025-08-30 16:00:20 - [34mdebug[39m: Call to child fork with args D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 16:00:20 - [34mdebug[39m: Replacing D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js with D:\LambdaTest-Playwright\node_modules\@lambdatest\playwright-node-sdk\dist\helper\mock-process.js
+2025-08-30 16:00:22 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 16:00:22 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/process.js with basePath: playwright
+2025-08-30 16:00:22 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/process.js, package: playwright
+2025-08-30 16:00:22 - [34mdebug[39m: Getting playwright/lib/common/process.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:22 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 16:00:22 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: @playwright/test/index.js with basePath: @playwright/test
+2025-08-30 16:00:22 - [34mdebug[39m: Attempting to resolve module: @playwright/test/index.js, package: @playwright/test
+2025-08-30 16:00:22 - [34mdebug[39m: Getting @playwright/test/index.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:22 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\@playwright\test\index.js
+2025-08-30 16:00:23 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 16:00:23 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 16:00:23 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:23 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 16:00:23 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 16:00:23 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 16:00:23 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 16:00:23 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chromium@lambdatest",
+      "use": {
+        "browserName": "chromium",
+        "channel": "chrome",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22Chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22platform%22%3A%22Windows%2010%22%2C%22build%22%3A%22Playwright%20Build%201%22%2C%22name%22%3A%22Playwright%20Sample%20Test%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 16:00:23 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 16:00:23 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 16:00:23 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 16:00:23 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 16:00:23 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 16:00:23 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 16:00:23 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 16:00:23 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:23 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 16:00:23 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 16:00:23 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 16:00:23 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 16:00:23 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 16:00:23 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 16:00:23 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 16:00:23 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 16:00:23 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 16:00:23 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 16:00:23 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:23 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:23 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 16:00:23 - [34mdebug[39m: workerHook started
+2025-08-30 16:00:23 - [34mdebug[39m: workerInfo in workerHook:
+2025-08-30 16:00:23 - [34mdebug[39m: beforeWorkerHook started
+2025-08-30 16:00:23 - [34mdebug[39m: workerInfo received:
+2025-08-30 16:00:23 - [34mdebug[39m: workerDetails beforeWorkerHook
+2025-08-30 16:00:23 - [34mdebug[39m: [mockBrowserType] projectName: "chrome:latest:windows 10@lambdatest"
+2025-08-30 16:00:24 - [34mdebug[39m: workerHook ended
+2025-08-30 16:00:24 - [34mdebug[39m: Call to child fork with args D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 16:00:24 - [34mdebug[39m: Replacing D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js with D:\LambdaTest-Playwright\node_modules\@lambdatest\playwright-node-sdk\dist\helper\mock-process.js
+2025-08-30 16:00:25 - [34mdebug[39m: Attempting to resolve module: @playwright/test/package.json, package: @playwright/test
+2025-08-30 16:00:25 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/common/process.js with basePath: playwright
+2025-08-30 16:00:25 - [34mdebug[39m: Attempting to resolve module: playwright/lib/common/process.js, package: playwright
+2025-08-30 16:00:25 - [34mdebug[39m: Getting playwright/lib/common/process.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:25 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\common\process.js
+2025-08-30 16:00:26 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: @playwright/test/index.js with basePath: @playwright/test
+2025-08-30 16:00:26 - [34mdebug[39m: Attempting to resolve module: @playwright/test/index.js, package: @playwright/test
+2025-08-30 16:00:26 - [34mdebug[39m: Getting @playwright/test/index.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:26 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\@playwright\test\index.js
+2025-08-30 16:00:26 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/transform/transform.js with basePath: playwright
+2025-08-30 16:00:26 - [34mdebug[39m: Attempting to resolve module: playwright/lib/transform/transform.js, package: playwright
+2025-08-30 16:00:26 - [34mdebug[39m: Getting playwright/lib/transform/transform.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:26 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\transform\transform.js
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Starting configuration modification
+2025-08-30 16:00:26 - [34mdebug[39m: [getLambdaTestConfig] Starting to read LambdaTest configuration
+2025-08-30 16:00:26 - [34mdebug[39m: [getLambdaTestConfig] Reading configs from D:\LambdaTest-Playwright\lambdatest.yml
+2025-08-30 16:00:26 - [34mdebug[39m: [getLambdaTestConfig] Successfully loaded config: [object Object]
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Loaded LambdaTest config: [object Object]
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Using config directory: D:\LambdaTest-Playwright
+2025-08-30 16:00:26 - [34mdebug[39m: [setGlobalSetup] Starting with configDir: D:\LambdaTest-Playwright
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Current config after global setup: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chromium@lambdatest",
+      "use": {
+        "browserName": "chromium",
+        "channel": "chrome",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22Chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22platform%22%3A%22Windows%2010%22%2C%22build%22%3A%22Playwright%20Build%201%22%2C%22name%22%3A%22Playwright%20Sample%20Test%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Processing 1 platforms
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Creating platform capabilities
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Creating capabilities for platform 0: [object Object]
+2025-08-30 16:00:26 - [34mdebug[39m: [createCapabilities] Creating capabilities for framework: playwright, index: 0
+2025-08-30 16:00:26 - [34mdebug[39m: [createCapabilities] Setting up capabilities for browser: chrome
+2025-08-30 16:00:26 - [34mdebug[39m: [createCapabilities] LT:Options before platform specific options: {"platform":"Windows 10","browserName":"chrome","browserVersion":"latest"}
+2025-08-30 16:00:26 - [34mdebug[39m: [getGitSourceInfo] Determined source info: LambdaTestPlaywright101:main
+2025-08-30 16:00:26 - [34mdebug[39m: [createCapabilities] Final capabilities: {
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "build": "Playwright SDK Build",
+    "name": "Playwright Test",
+    "user": "<your-lambdatest-username>",
+    "accessKey": "<your-lambdatest-access-key>",
+    "video": true,
+    "console": true,
+    "network": true,
+    "playwrightClientVersion": "1.49.1",
+    "commandLog": true,
+    "devCdpUrl": "",
+    "platform": "windows 10",
+    "lambdatestSDK": "playwright-nodeagent/1.0.2",
+    "hostName": "Anas",
+    "source": "LambdaTestPlaywright101:main"
+  }
+}
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Collecting test files
+2025-08-30 16:00:26 - [34mdebug[39m: [requirePWModule] Attempting to resolve module: playwright/lib/runner/projectUtils.js with basePath: playwright
+2025-08-30 16:00:26 - [34mdebug[39m: Attempting to resolve module: playwright/lib/runner/projectUtils.js, package: playwright
+2025-08-30 16:00:26 - [34mdebug[39m: Getting playwright/lib/runner/projectUtils.js from D:\LambdaTest-Playwright
+2025-08-30 16:00:26 - [34mdebug[39m: [requirePWModule] Successfully resolved module at: D:\LambdaTest-Playwright\node_modules\playwright\lib\runner\projectUtils.js
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Project match payload: [object Object]
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Found 0 test files
+2025-08-30 16:00:26 - [34mdebug[39m: [getTestListFromPWOptions] Starting with index: 0
+2025-08-30 16:00:26 - [34mdebug[39m: [getTestListFromPWOptions] Platform-specific config: undefined
+2025-08-30 16:00:26 - [34mdebug[39m: [getTestListFromPWOptions] Using global config: undefined
+2025-08-30 16:00:26 - [34mdebug[39m: [getTestListFromPWOptions] No config found, using empty object
+2025-08-30 16:00:26 - [34mdebug[39m: [getTestListFromPWOptions] Extracted values:
+    - testMatch: undefined
+    - testIgnore: undefined
+    - testDir: undefined
+    - baseTestDir: ./tests
+2025-08-30 16:00:26 - [34mdebug[39m: [getTestListFromPWOptions] Project match payload: [object Object]
+2025-08-30 16:00:26 - [34mdebug[39m: [getTestListFromPWOptions] Found 0 test files: 
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Test options: [
+  []
+]
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Processing platform configurations
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Created project name: chrome:latest:windows 10@lambdatest
+2025-08-30 16:00:26 - [34mdebug[39m: [getCDPEndpoint] Determining CDP endpoint for env: undefined, hub: default
+2025-08-30 16:00:26 - [34mdebug[39m: [getCDPEndpoint] Using default endpoint: cdp.lambdatest.com
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Using CDP endpoint: cdp.lambdatest.com (env: undefined, hub: default)
+2025-08-30 16:00:26 - [34mdebug[39m: [getCurrentModifiedConfig] Final configuration: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:26 - [34mdebug[39m: [writeTempPWConfig] Writing temporary config: {
+  "testDir": "./tests",
+  "timeout": 30000,
+  "use": {
+    "baseURL": "https://lambdatest.github.io/sample-todo-app/",
+    "headless": true
+  },
+  "projects": [
+    {
+      "name": "chrome:latest:windows 10@lambdatest",
+      "use": {
+        "connectOptions": {
+          "wsEndpoint": "wss://cdp.lambdatest.com/playwright?capabilities=%7B%22browserName%22%3A%22chrome%22%2C%22browserVersion%22%3A%22latest%22%2C%22LT%3AOptions%22%3A%7B%22build%22%3A%22Playwright%20SDK%20Build%22%2C%22name%22%3A%22Playwright%20Test%22%2C%22user%22%3A%22%3Cyour-lambdatest-username%3E%22%2C%22accessKey%22%3A%22%3Cyour-lambdatest-access-key%3E%22%2C%22video%22%3Atrue%2C%22console%22%3Atrue%2C%22network%22%3Atrue%2C%22playwrightClientVersion%22%3A%221.49.1%22%2C%22commandLog%22%3Atrue%2C%22devCdpUrl%22%3A%22%22%2C%22platform%22%3A%22windows%2010%22%2C%22lambdatestSDK%22%3A%22playwright-nodeagent%2F1.0.2%22%2C%22hostName%22%3A%22Anas%22%2C%22source%22%3A%22LambdaTestPlaywright101%3Amain%22%7D%7D"
+        }
+      }
+    }
+  ],
+  "globalSetup": "D:\\LambdaTest-Playwright\\node_modules\\@lambdatest\\playwright-node-sdk\\dist\\helper\\globalSetup.js"
+}
+2025-08-30 16:00:26 - [34mdebug[39m: [writeTempPWConfig] Successfully wrote config to: D:\LambdaTest-Playwright\playwright-lambdatest-sdk.config.temp.json
+2025-08-30 16:00:26 - [34mdebug[39m: workerHook started
+2025-08-30 16:00:26 - [34mdebug[39m: workerInfo in workerHook:
+2025-08-30 16:00:26 - [34mdebug[39m: beforeWorkerHook started
+2025-08-30 16:00:26 - [34mdebug[39m: workerInfo received:
+2025-08-30 16:00:26 - [34mdebug[39m: workerDetails beforeWorkerHook
+2025-08-30 16:00:26 - [34mdebug[39m: [mockBrowserType] projectName: "chrome:latest:windows 10@lambdatest"
+2025-08-30 16:00:27 - [34mdebug[39m: workerHook ended
